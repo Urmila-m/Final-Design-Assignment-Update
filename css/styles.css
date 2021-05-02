@@ -1,0 +1,912 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.upper-header{
+    background-color: #424242;
+    color: #7e7e7e;
+    height: 50px;
+    font-size: 14px;
+}
+
+/* header styling */
+header{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../assets/banner/background_image.png);
+}
+
+.logo{
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    padding: 4% 0px;
+    color: #424242;
+}
+
+.menu{
+    color: #424242;
+    display: none;
+}
+
+.banner-title{
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    color: #424242;
+}
+
+.banner{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #424242;
+}
+
+.btn{
+    padding: 8px 18px;
+    font-size: 12px;
+    background-color: #f0423c;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-view-category{
+    display: block;
+    margin: 20px auto;
+}
+
+.section-title>p{
+    text-align: center;
+}
+
+.section-title>img{
+    display: block;
+    margin: 10px auto;
+}
+
+.sub-title{
+    margin: 20px 0px 30px 0px;
+}
+
+/* fonts used */
+.exo-bold-24{
+    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    color: #424242;
+}
+
+.exo-demibold-28{
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    color: #424242;
+}
+
+.lato-reg-16{
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    color: #424242;
+
+}
+
+.lato-reg-14{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #424242;
+
+}
+
+.lato-bold-14{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #424242;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.exo-reg-16{
+    font-size: 11px;
+    font-family: 'Exo', sans-serif;
+}
+
+.lato-bold-16{
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #424242;
+
+}
+
+.exo-bold-18{
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    color: #424242;
+    line-height: 2;
+}
+
+.exo-demibold-18{
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    color: #424242;
+
+}
+
+.gallery-item{
+    width: 98%;
+    padding: 20px;
+    float: left;
+    border: 1px solid grey;
+    margin: 1%;
+}
+
+.center-item>p{
+    text-align: center;
+}
+
+.center-item>img{
+    display: block;
+    margin: 10px auto;
+}
+
+.second-section li{
+    float: left;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.second-section{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/content/background_image.png);
+}
+
+.second-section p{
+    color: white;
+}
+
+.second-section-overlay{
+    background-color:black; 
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+
+.third-section{
+    padding: 50px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+.third-section-content-left{
+    padding: 0px 0px 20px 0px;
+}
+
+.third-section-content-left ul{
+    padding: 10px 0px;
+}
+
+.third-section-content-left li{
+    width: 90%;
+    padding: 10px 0px;
+}
+
+.third-section-content-left li>div{
+    width: 70%;
+}
+
+.third-section li>*{
+    float: left;
+}
+
+.third-section-img{
+    height: 100%;
+}
+
+.third-section-img img{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.third-section-content>*{
+    float: left;
+    width: 100%;
+}
+
+.fourth-section-title .exo-demibold-28{
+    float: left;
+}
+
+.fourth-section{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+
+.btn-browse-all-contest{
+    display: block;
+    margin: 0 auto;
+}
+
+.overlay{
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   height: 100%; 
+   width: 100%; 
+   background-color: black; 
+   opacity: 0.8;
+   visibility: hidden;
+}
+
+.overlay-btn{
+    padding: 8px 18px;
+    font-size: 12px;
+    background-color: #f0423c;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    width: 50%;
+    padding: 8px 0px;
+}
+
+.overlay-btn-wrapper{
+    position: absolute; 
+    bottom: 0px;
+    width: 100%;
+    /* on-hover make visible */
+    visibility: hidden;
+}
+
+.example-gallery{
+    padding: 50px 0px;
+}
+
+.example-gallery li{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.example-gallery img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.right-button{
+    padding: 5px 10px;
+    font-size: 12px;
+    float: right;
+    color: white;
+    background-color: #f0423c;
+    font-weight: bold;
+    margin: 0px 3px;
+}
+
+.left-button{
+    padding: 5px 10px;
+    font-size: 12px;
+    float: right;
+    color: white;
+    background-color: #424242;
+    font-weight: bold;    
+    margin: 0px 3px;
+}
+
+.fifth-section{
+    padding: 50px 0px;
+}
+
+.testimonial-item{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.feedback{
+    text-align: center;
+}
+
+.feedback::first-line{
+    text-align: justify;
+}
+
+.bg-div{
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.rating{
+    width: 152px;
+    margin: 10px auto 0px auto;
+}
+
+.rating>*{
+    float: left;
+}
+.rating-star{
+    margin-left: 5px;
+}
+
+.rating-star img{
+    float: left;
+}
+
+.testimonial-by{
+    text-align: center;
+    padding: 10px;
+}
+
+.testimonial-icon{
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-wrapper{
+    width: 66px;
+    margin: 0px auto;
+}
+
+.sixth-section{
+    padding: 20px 0px;
+    background-color: #f7f7f7;
+}
+
+.sixth-section li{
+    width: 33%;
+    float: left;
+}
+
+.sixth-section img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.seventh-section{
+    padding: 50px 0px;
+}
+
+.coupon-section{
+    width: 100%;
+    float: left;
+}
+
+.email-section{
+    width: 100%;
+    padding: 15px 0px;
+    float: left;
+
+}
+
+.email-section input{
+    padding: 8px 5px;
+    width: 100%;
+}
+
+.btn-email-me{
+    background-color: #f0423c;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    float: left;
+    margin: 5px 0px;
+}
+
+.copyright-section{
+    background-color: #434343;
+    color: #888888;
+}
+
+.copyright-section li{
+    padding: 10px;
+}
+
+.copyright-section p{
+    padding: 10px;
+}
+
+footer .top-section{
+    border-top: 2px solid #f0423c;
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+
+.about-us{
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.quick-links{
+    width: 100%;
+    float: left;
+    margin: 0px 1%;
+    padding: 5px;
+}
+
+.my-account{
+    width: 100%;
+    float: left;
+    margin: 0px 1%;
+    padding: 5px;
+}
+
+.my-account ul{
+    padding: 20px 0px;
+}
+
+.newsletter{
+    width: 100%;
+    float: right;
+    padding: 5px;
+}
+
+.newsletter ul{
+    padding: 20px 0px;
+}
+
+.footer-social-icon-item{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    float: left;
+    border: 1px solid #888888;
+}
+
+.footer-social-icons{
+    padding: 10px 0px;
+}
+
+footer{
+    color: #666666;
+}
+
+footer .logo{
+    width: 100%;
+    padding: 0px;
+}
+
+.quick-links ul{
+    padding: 20px 0px;
+}
+
+.quick-links li, .my-account li{
+    padding: 10px;
+    border-bottom: 1px solid #888888;
+}
+
+.btn-up{
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+    background-color: #f0423c;
+    font-weight: bold;
+    float: right;
+}
+
+.newsletter img{
+    margin-top: 20px 0px;
+}
+
+.newsletter input{
+    margin: 4px 0px;
+    padding: 8px 5px;
+    width: 100%;
+}
+
+.newsletter-btn{
+    width: 100%;
+    padding: 8px 18px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Exo', sans-serif;
+    background-color: #f0423c;
+    margin: 4px 0px;
+}
+
+.about-us-content, .newsletter-content{
+    text-align: justify;
+}
+
+.newsletter-content{
+    margin-top: 20px;
+}
+
+.example-gallery li:hover .overlay, .example-gallery li:hover .overlay-btn-wrapper{
+    visibility: visible;
+}
+
+.right-arrow img{
+    visibility: hidden;
+}
+
+.right-arrow{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    float: left;
+    background-image: url(../assets/footer/right_arrow_grey_icon.png);
+}
+
+button:hover, .left-button:hover, .right-button:hover{
+    cursor: pointer;
+}
+
+.btn-up:hover{
+    cursor: pointer;
+    color: white;
+}
+.quick-links li:hover .quick-link-item, .my-account li:hover .my-account-item{
+    color: #f0423c;
+}
+
+.my-account li:hover, .quick-links li:hover {
+    cursor: pointer;
+}
+
+.quick-links li:hover .right-arrow{
+    background-image: url(../assets/footer/right_arrow_red_icon.png);
+}
+
+.my-account li:hover .right-arrow{
+    background-image: url(../assets/footer/right_arrow_red_icon.png);
+}
+
+
+@media screen and (min-width:481px) {
+    .gallery-item{
+        width: 48%;
+    }
+
+    .btn-email-me{
+        float: left;
+        margin: 0px;
+    }
+    
+    .email-section input{
+        float: left;
+        width: 60%;
+        margin: 0px 1%;
+    }
+
+    .testimonial-item{
+        width: 48%;
+        margin: 1%;
+    }
+
+    .quick-links{
+        width: 48%;
+        float: left;
+        margin: 0px 1%;
+        padding: 10px;
+    }
+
+    .my-account{
+        width: 48%;
+        float: left;
+        margin: 0px 1%;
+        padding: 10px;
+    }
+
+    .newsletter{
+        padding: 10px;
+    }
+
+    .copyright-section li{
+        float: right;
+    }
+
+    .copyright-section p{
+        float: left;
+    }  
+    
+    footer .logo span{
+        padding: 12px 0px;
+    }
+}
+
+@media screen and (min-width:515px){
+    .upper-header{
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:580px) {
+    .third-section-content-left{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    .third-section-img{
+        width: 48%;
+        margin: 1%;
+        float: right;
+    }
+    
+}
+
+@media screen and (min-width:769px) {
+    .logo{
+        font-size: 18px;
+    }
+
+    .banner-title{
+        font-size: 28px;
+    } 
+
+    .logo p{
+        padding: 3% 0;
+    }
+
+    .nav-right-item{
+        font-size: 14px;
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .banner{
+        font-size: 14px;
+    }
+
+    .exo-demibold-28{
+        font-size: 22px;
+    }
+
+    .lato-reg-16{
+        font-size: 14px;
+    }
+
+    .exo-reg-16{
+        font-size: 14px;
+    }
+
+    .lato-reg-14{
+        font-size: 12px;
+    }
+
+    .exo-bold-18{
+        font-size: 16px;
+    }
+
+    .lato-bold-16{
+        font-size: 14px;
+    }
+
+    .gallery-item{
+        width: 31%;
+        padding: 2%;
+    }
+
+    .second-section li{
+        width: 25%;
+    }
+
+    .example-gallery li{
+        width: 33.33%;
+    }
+
+    .coupon-section{
+        float: left;
+        width: 40%;
+    }
+
+    .email-section{
+        float: right;
+        width: 60%;
+    }
+
+    .btn-email-me, .newsletter-btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .btn-up, .left-button, .right-button{
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .btn-wrapper{
+        width: 80px;
+    }
+
+    .newsletter input,  .email-section input{
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .menu{
+        display: block;
+    }
+
+    .email-section input, .newsletter input{
+        padding: 12px 5px;
+    }
+
+    .menu, .nav-right{
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        padding: 18px 0px;
+    }
+
+    .bg-div{
+        padding: 30px 30px;
+    }
+
+    .logo{
+        font-size: 20px;
+        padding: 24px 0px;
+    }  
+
+    .logo p{
+        padding: 10px 0px;
+    }  
+
+    .menu-item{
+        padding: 20px 10px;
+    }
+
+    .menu-item:hover{
+        color: #f0423c;
+        cursor: pointer;
+    }
+
+    .banner-title{
+        font-size: 40px;
+    } 
+
+    .banner{
+        font-size: 16px;
+    }
+
+    .btn{
+        padding: 12px 33px;
+        font-size: 16px;
+    }
+
+    .exo-demibold-28{
+        font-size: 28px;
+    }
+
+    .gallery-item{
+        width: 31%;
+    }
+
+    .exo-demibold-18{
+        font-size: 18px;
+    }
+
+    .exo-bold-18{
+        font-size: 18px;
+    }
+
+    .lato-reg-16{
+        font-size: 16px;
+    }
+    
+    .lato-bold-16{
+        font-size: 16px;
+    }
+
+    .second-section li{
+        width: 25%;
+    }
+
+    .third-section-content-left{
+        padding: 0px 20px 20px 0px;
+    }
+    
+    .exo-reg-16{
+        font-size: 16px;
+    }
+
+    .lato-bold-14{
+        font-size: 14px;
+    }
+
+    .lato-reg-14{
+        font-size: 14px;
+    }
+
+    .left-button{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .right-button{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .example-gallery li{
+        width: 25%;
+    }
+
+    .testimonial-item{
+        width: 48%;
+        margin: 1%;
+    }
+
+    .btn-wrapper{
+        width: 104px;
+        margin: 50px auto 0px auto;
+    }
+
+    .sixth-section{
+        padding: 30px 0px;
+    }
+
+    .sixth-section li{
+        width: 20%;
+    }
+
+    .btn-email-me{
+        padding: 12px 33px;
+        font-size: 16px;
+    }
+
+    .about-us{
+        width: 30%;
+    }
+    
+    .quick-links{
+        width: 18%;
+    }
+
+    .my-account{
+        width: 18%;
+    }
+
+    .newsletter{
+        width: 30%;
+    }
+
+    .btn-up{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .footer-social-icon-item{
+        width: 23px;
+        height: 23px;
+        margin: 5px;
+    }
+
+    .newsletter input{
+        padding: 12px 5px;
+    }
+
+    .newsletter-btn{
+        padding: 12px 0px;
+        font-size: 16px;
+        margin: 4px 0px;
+    }
+
+    .copyright-section p{
+        padding: 15px;
+        float: left;
+    }  
+    
+    .copyright-section li{
+        float: right;
+        padding: 15px;
+    }
+
+    .copyright-section{
+        height: 50px;
+    }
+}

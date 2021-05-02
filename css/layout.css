@@ -1,0 +1,318 @@
+/* commonly used class for column creation*/
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.table-buffer{
+    display: table;
+    width: 100%;
+}
+
+/* upper-header styling */
+.social-icons{
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+
+.social-icons>div{
+    float: left;
+}
+
+.upper-header-right{
+    float: right;
+    height: 100%;
+    padding: 10px 0px;
+    width: 60%;
+}
+
+.logo p{
+    padding: 5% 0px;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav-right{
+    width: 40%;
+    float: right;
+    padding: 5% 0px;
+}
+
+.logo>*{
+    float: left;
+}
+
+.hamburger-menu{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 5% 0px;
+}
+
+.highlight-text{
+    color: #f0423c;
+}
+
+.hamburger-menu img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.nav-right-item{
+    float: right;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Exo', sans-serif;
+}
+
+.nav-right-item:hover{
+    cursor: pointer;
+    color: #f0423c;
+}
+
+.nav-right-item>*{
+    float: right;
+}
+
+.banner-logo{
+    display: block;
+    margin: 30px auto;
+
+}
+
+.banner{
+    padding: 50px 0px;
+}
+
+.banner-title{
+    text-align: center;
+}
+
+.btn-getting-started{
+    display: block;
+    margin: 30px auto;
+}
+
+.money-back{
+    text-align: center;
+}
+
+.first-section{
+    padding: 50px 0px;
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.call{
+    width: 120px;
+    float: right;
+}
+
+.mail{
+    width: 163px;
+    float: right;
+}
+
+.bg-icon{
+    width: 20px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.call p, .mail p{
+    float: right;
+}
+
+/* header styling */
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+.logo img{
+    max-width: 100%;
+    /* width: 30%; */
+}
+.footer-social-icon-item img{
+    visibility: hidden;
+}
+
+.item1{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/facebook_icon.png);
+    background-position: center;
+}
+
+.item2{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/twitter_icon_grey.png);
+    background-position: center;
+}
+
+.item3{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/pinterest_icon.png);
+    background-position: center;
+}
+
+.item4{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/in_icon.png);
+    background-position: center;
+}
+
+.item5{
+    background-repeat: no-repeat;
+    background-image: url(../assets/footer/g_plus_icon.png);
+    background-position: center;
+}
+
+.item1:hover{
+    cursor: pointer;
+    background-color: #f0423c;
+    background-image: url(../assets/upper-header/facebook_icon_white.png);
+}
+
+.item2:hover{
+    cursor: pointer;
+    background-color: #f0423c;
+    background-image: url(../assets/upper-header/twitter_icon_white.png);
+}
+
+.item3:hover{
+    cursor: pointer;
+    background-color: #f0423c;
+    background-image: url(../assets/footer/p_interest_white_icon.png);
+}
+.item4:hover{
+    cursor: pointer;
+    background-color: #f0423c;
+    background-image: url(../assets/upper-header/in_icon_white.png);
+}
+.item5:hover{
+    cursor: pointer;
+    background-color: #f0423c;
+    background-image: url(../assets/footer/g_plus_icon_white.png);
+}
+
+.social-icon-1{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/facebook_icon.png);
+    background-position: center;
+}
+
+.social-icon-2{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/twitter_icon_grey.png);
+    background-position: center;
+}
+
+.social-icon-3{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/pinterest_icon.png);
+    background-position: center;
+}
+
+.social-icon-4{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/in_icon.png);
+    background-position: center;
+}
+
+.social-icon-5{
+    background-repeat: no-repeat;
+    background-image: url(../assets/upper-header/t_icon.png);
+    background-position: center;
+}
+
+.social-icon-1:hover{
+    cursor: pointer;
+    background-image: url(../assets/upper-header/facebook_icon_red.png);
+}
+
+.social-icon-2:hover{
+    cursor: pointer;
+    background-image: url(../assets/upper-header/twitter_icon.png);
+}
+
+.social-icon-3:hover{
+    cursor: pointer;
+    background-image: url(../assets/footer/p_interest_red_icon.png);
+}
+
+.social-icon-4:hover{
+    cursor: pointer;
+    background-image: url(../assets/upper-header/in_icon_red.png);
+}
+
+.social-icon-5:hover{
+    cursor: pointer;
+    background-image: url(../assets/upper-header/t_icon_red.png);
+}
+
+
+.social-icons img{
+    visibility: hidden;
+}
+
+@media screen and (min-width: 769px){
+    .container{
+        width: 80%;
+        padding: 0px 30px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container{
+        max-width: 1290px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .menu{
+        float: right;
+        width: 59%;
+    }
+
+    .nav-right-item{
+        float: right;
+        padding: 20px 5px;
+    }
+
+    .nav-right-item p{
+        font-size: 14px;
+    }
+
+    .banner{
+        padding: 50px 0px;
+    }
+    
+    .menu-item{
+        float: right;
+    }
+     
+    .logo{
+        width: 25%;
+    }
+
+    .nav-right{
+        width: 16%;
+        float: right;
+    }
+
+}
+
+
