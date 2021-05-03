@@ -392,7 +392,7 @@ ul{
 }
 
 .email-section input{
-    padding: 8px 5px;
+    padding: 7px 5px;
     width: 100%;
 }
 
@@ -749,7 +749,7 @@ button:hover, .left-button:hover, .right-button:hover{
     }
 
     .newsletter input,  .email-section input{
-        padding: 10px 5px;
+        padding: 8px 5px;
     }
 }
 
@@ -759,7 +759,7 @@ button:hover, .left-button:hover, .right-button:hover{
     }
 
     .email-section input, .newsletter input{
-        padding: 12px 5px;
+        padding: 10px 5px;
     }
 
     .menu, .nav-right{
