@@ -50,6 +50,7 @@ header{
     background-color: #f0423c;
     color: white;
     font-family: 'Lato', sans-serif;
+    border: hidden;
 }
 
 .btn-view-category{
@@ -399,6 +400,7 @@ ul{
     color: white;
     float: left;
     margin: 5px 0px;
+    border: hidden;
 }
 
 .copyright-section{
@@ -512,6 +514,7 @@ footer .logo{
     font-family: 'Exo', sans-serif;
     background-color: #f0423c;
     margin: 4px 0px;
+    border: hidden;
 }
 
 .about-us-content, .newsletter-content{
@@ -757,12 +760,27 @@ button:hover, .left-button:hover, .right-button:hover{
     }  
 
     .menu-item{
-        padding: 20px 10px;
+        padding: 20px 8px;
+    }
+
+    .menu-item-dropdown{
+        display: inline-block;
+        background-image: url(../assets/header/dropdown_icon_primary.png);
+        background-repeat: no-repeat;
+        vertical-align: top;
+    }
+
+    .menu-item-dropdown img{
+        visibility: hidden;
     }
 
     .menu-item:hover{
         color: #f0423c;
         cursor: pointer;
+    }
+
+    .menu-item:hover .menu-item-dropdown{
+        background-image: url(../assets/header/dropdown_icon.png);
     }
 
     .banner-title{

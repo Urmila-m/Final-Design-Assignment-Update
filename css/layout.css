@@ -68,9 +68,34 @@ nav{
     font-family: 'Exo', sans-serif;
 }
 
+.nav-right-item img{
+    visibility: hidden;
+}
+
 .nav-right-item:hover{
     cursor: pointer;
     color: #f0423c;
+}
+
+.login-icon{
+    background-image: url(../assets/header/login_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-icon{
+    background-image: url(../assets/header/register_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nav-right-item:hover .login-icon{
+    background-image: url(../assets/header/login_icon_hover.png);
+}
+
+.nav-right-item:hover .register-icon{
+    background-image: url(../assets/header/register_icon_hover.png);
 }
 
 .nav-right-item>*{
